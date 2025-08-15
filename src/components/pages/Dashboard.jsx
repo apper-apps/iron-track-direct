@@ -5,10 +5,9 @@ import RoutineBuilder from "@/components/organisms/RoutineBuilder";
 import ProgressChart from "@/components/organisms/ProgressChart";
 import ExerciseSelector from "@/components/organisms/ExerciseSelector";
 import { workoutService } from "@/services/api/workoutService";
-import { toast } from "react-toastify";
-import { cn } from "@/lib/utils";
-import { ApperIcon } from "@/components/ui/ApperIcon";
-
+import { toast } from 'react-toastify'
+import { cn } from "@/utils/cn";
+import ApperIcon from '@/components/ApperIcon'
 const Dashboard = () => {
   const [activeWorkout, setActiveWorkout] = useState(null);
   const [workoutDuration, setWorkoutDuration] = useState(0);
