@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "name": "Push Day",
+    "exercises": [1, 2, 10, 11, 17]
+  },
+  {
+    "Id": 2,
+    "name": "Pull Day", 
+    "exercises": [5, 6, 7, 14, 15]
+  },
+  {
+    "Id": 3,
+    "name": "Leg Day",
+    "exercises": [19, 20, 21, 22, 23]
+  },
+  {
+    "Id": 4,
+    "name": "Upper Body Power",
+    "exercises": [1, 5, 10, 14, 17]
+  },
+  {
+    "Id": 5,
+    "name": "Full Body Beginner",
+    "exercises": [1, 19, 6, 10, 25]
+  }
+]

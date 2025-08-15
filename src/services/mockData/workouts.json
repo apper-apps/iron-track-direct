@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "date": "2024-01-15T10:00:00.000Z",
+    "routineName": "Push Day",
+    "duration": 3600,
+    "sets": [
+      {"exerciseId": 1, "reps": 8, "weight": 185, "completed": true},
+      {"exerciseId": 1, "reps": 8, "weight": 185, "completed": true},
+      {"exerciseId": 1, "reps": 6, "weight": 205, "completed": true},
+      {"exerciseId": 2, "reps": 10, "weight": 70, "completed": true},
+      {"exerciseId": 2, "reps": 10, "weight": 70, "completed": true},
+      {"exerciseId": 2, "reps": 8, "weight": 80, "completed": true}
+    ]
+  },
+  {
+    "Id": 2,
+    "date": "2024-01-17T11:30:00.000Z",
+    "routineName": "Pull Day",
+    "duration": 4200,
+    "sets": [
+      {"exerciseId": 5, "reps": 5, "weight": 315, "completed": true},
+      {"exerciseId": 5, "reps": 5, "weight": 315, "completed": true},
+      {"exerciseId": 5, "reps": 3, "weight": 335, "completed": true},
+      {"exerciseId": 6, "reps": 12, "weight": 0, "completed": true},
+      {"exerciseId": 6, "reps": 10, "weight": 0, "completed": true},
+      {"exerciseId": 6, "reps": 8, "weight": 0, "completed": true}
+    ]
+  },
+  {
+    "Id": 3,
+    "date": "2024-01-19T09:15:00.000Z",
+    "routineName": "Leg Day",
+    "duration": 3900,
+    "sets": [
+      {"exerciseId": 19, "reps": 8, "weight": 225, "completed": true},
+      {"exerciseId": 19, "reps": 8, "weight": 225, "completed": true},
+      {"exerciseId": 19, "reps": 6, "weight": 245, "completed": true},
+      {"exerciseId": 20, "reps": 10, "weight": 185, "completed": true},
+      {"exerciseId": 20, "reps": 10, "weight": 185, "completed": true},
+      {"exerciseId": 20, "reps": 8, "weight": 205, "completed": true}
+    ]
+  },
+  {
+    "Id": 4,
+    "date": "2024-01-22T10:45:00.000Z",
+    "routineName": "Push Day",
+    "duration": 3750,
+    "sets": [
+      {"exerciseId": 1, "reps": 8, "weight": 195, "completed": true},
+      {"exerciseId": 1, "reps": 8, "weight": 195, "completed": true},
+      {"exerciseId": 1, "reps": 5, "weight": 215, "completed": true},
+      {"exerciseId": 2, "reps": 10, "weight": 75, "completed": true},
+      {"exerciseId": 2, "reps": 10, "weight": 75, "completed": true},
+      {"exerciseId": 2, "reps": 8, "weight": 85, "completed": true}
+    ]
+  },
+  {
+    "Id": 5,
+    "date": "2024-01-24T12:00:00.000Z",
+    "routineName": "Pull Day",
+    "duration": 4500,
+    "sets": [
+      {"exerciseId": 5, "reps": 5, "weight": 325, "completed": true},
+      {"exerciseId": 5, "reps": 5, "weight": 325, "completed": true},
+      {"exerciseId": 5, "reps": 3, "weight": 345, "completed": true},
+      {"exerciseId": 6, "reps": 12, "weight": 10, "completed": true},
+      {"exerciseId": 6, "reps": 10, "weight": 10, "completed": true},
+      {"exerciseId": 6, "reps": 8, "weight": 15, "completed": true}
+    ]
+  }
+]

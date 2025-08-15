@@ -1,0 +1,124 @@
+@import "react-toastify/dist/ReactToastify.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+/* Toast customization */
+.Toastify__toast {
+  background-color: #374151;
+  color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #10B981, #059669);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #EF4444, #DC2626);
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #F59E0B, #D97706);
+}
+
+.Toastify__toast-container {
+  width: auto;
+  min-width: 320px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1F2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4B5563;
+}
+
+/* Background image overlay */
+.bodybuilder-bg {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI4MDAiIHZpZXdCb3g9IjAgMCAxMjAwIDgwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iYm9keWJ1aWxkZXIiIHgxPSIwIiB5MT0iMCIgeDI9IjEyMDAiIHkyPSI4MDAiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzc0MTUxIiBzdG9wLW9wYWNpdHk9IjAuMSIvPgo8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI0RDMjYyNiIgc3RvcC1vcGFjaXR5PSIwLjA1Ii8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzM3NDE1MSIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8cGF0aCBkPSJNNjAwIDEwMEw2NTAgMTUwTDYwMCAyMDBMNTUwIDI1MEw2MDAgMzAwTDY1MCAzNTBMNjAwIDQwMEw1NTAgNDUwTDYwMCA1MDBMNTQ1IDUyNUw1OTAgNTUwTDU0MCA2MDBMNTM1IDY1MFE1MzAgNjc1IDU1MCA3MDBMNTQ1IDc1MEw2MDAgODAwSDUwMEw0NTAgNzUwTDQwMCA3MDBMNDQ1IDY1MEw0MDAgNjAwTDQ0NSA1NTBMNDM1IDUyNUw0ODAgNDgwTDQ0NSA0NDBMNDk1IDM5MEw0NDAgMzUwTDQ5NSAzMDBMNDQ1IDI1MEw0OTAgMjAwTDQ0MCAyMDBMNDkwIDE1MEw0NTAgMTAwSDU1MEw2MDAgNTBMNjUwIDEwMFoiIGZpbGw9InVybCgjYm9keWJ1aWxkZXIpIi8+CjxjaXJjbGUgY3g9IjYwMCIgY3k9IjEyMCIgcj0iMjAiIGZpbGw9IiM0QjU1NjMiIG9wYWNpdHk9IjAuMyIvPgo8L3N2Zz4K");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Animated background pattern */
+.workout-pattern {
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(220, 38, 38, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(245, 158, 11, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(55, 65, 81, 0.1) 0%, transparent 50%);
+}
+
+/* Weight plate styling */
+.weight-plate {
+  background: linear-gradient(135deg, #4B5563, #374151);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* PR glow effect */
+@keyframes prGlow {
+  0%, 100% { 
+    box-shadow: 0 0 5px #F59E0B, 0 0 10px #F59E0B, 0 0 15px #F59E0B, 0 0 20px #F59E0B;
+  }
+  50% { 
+    box-shadow: 0 0 10px #F59E0B, 0 0 20px #F59E0B, 0 0 30px #F59E0B, 0 0 40px #F59E0B;
+  }
+}
+
+.pr-glow {
+  animation: prGlow 2s ease-in-out infinite;
+}
+
+/* Timer ring animation */
+.timer-ring {
+  transition: stroke-dasharray 1s linear;
+}
+
+/* Button hover effects */
+.btn-hover {
+  transition: all 0.2s ease-out;
+}
+
+.btn-hover:hover {
+  transform: translateY(-2px) scale(1.05);
+}
+
+/* Muscle group colors */
+.muscle-chest { background: linear-gradient(135deg, #DC2626, #B91C1C); }
+.muscle-back { background: linear-gradient(135deg, #059669, #047857); }
+.muscle-shoulders { background: linear-gradient(135deg, #D97706, #B45309); }
+.muscle-arms { background: linear-gradient(135deg, #7C3AED, #6D28D9); }
+.muscle-legs { background: linear-gradient(135deg, #DC2626, #B91C1C); }
+.muscle-core { background: linear-gradient(135deg, #0891B2, #0E7490); }
+
+/* Set completion animation */
+@keyframes setComplete {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); background-color: #10B981; }
+  100% { transform: scale(1); }
+}
+
+.set-complete {
+  animation: setComplete 0.3s ease-in-out;
+}

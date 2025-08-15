@@ -1,0 +1,182 @@
+[
+  {
+    "Id": 1,
+    "name": "Bench Press",
+    "muscleGroup": "Chest",
+    "equipment": "Barbell"
+  },
+  {
+    "Id": 2,
+    "name": "Incline Dumbbell Press",
+    "muscleGroup": "Chest",
+    "equipment": "Dumbbell"
+  },
+  {
+    "Id": 3,
+    "name": "Chest Fly",
+    "muscleGroup": "Chest",
+    "equipment": "Cable"
+  },
+  {
+    "Id": 4,
+    "name": "Push Ups",
+    "muscleGroup": "Chest",
+    "equipment": "Bodyweight"
+  },
+  {
+    "Id": 5,
+    "name": "Deadlift",
+    "muscleGroup": "Back",
+    "equipment": "Barbell"
+  },
+  {
+    "Id": 6,
+    "name": "Pull-ups",
+    "muscleGroup": "Back",
+    "equipment": "Bodyweight"
+  },
+  {
+    "Id": 7,
+    "name": "Barbell Row",
+    "muscleGroup": "Back",
+    "equipment": "Barbell"
+  },
+  {
+    "Id": 8,
+    "name": "Lat Pulldown",
+    "muscleGroup": "Back",
+    "equipment": "Cable"
+  },
+  {
+    "Id": 9,
+    "name": "T-Bar Row",
+    "muscleGroup": "Back",
+    "equipment": "Machine"
+  },
+  {
+    "Id": 10,
+    "name": "Overhead Press",
+    "muscleGroup": "Shoulders",
+    "equipment": "Barbell"
+  },
+  {
+    "Id": 11,
+    "name": "Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "equipment": "Dumbbell"
+  },
+  {
+    "Id": 12,
+    "name": "Rear Delt Fly",
+    "muscleGroup": "Shoulders",
+    "equipment": "Cable"
+  },
+  {
+    "Id": 13,
+    "name": "Arnold Press",
+    "muscleGroup": "Shoulders",
+    "equipment": "Dumbbell"
+  },
+  {
+    "Id": 14,
+    "name": "Barbell Curl",
+    "muscleGroup": "Arms",
+    "equipment": "Barbell"
+  },
+  {
+    "Id": 15,
+    "name": "Hammer Curl",
+    "muscleGroup": "Arms",
+    "equipment": "Dumbbell"
+  },
+  {
+    "Id": 16,
+    "name": "Tricep Dip",
+    "muscleGroup": "Arms",
+    "equipment": "Bodyweight"
+  },
+  {
+    "Id": 17,
+    "name": "Close-Grip Bench Press",
+    "muscleGroup": "Arms",
+    "equipment": "Barbell"
+  },
+  {
+    "Id": 18,
+    "name": "Preacher Curl",
+    "muscleGroup": "Arms",
+    "equipment": "EZ Bar"
+  },
+  {
+    "Id": 19,
+    "name": "Squat",
+    "muscleGroup": "Legs",
+    "equipment": "Barbell"
+  },
+  {
+    "Id": 20,
+    "name": "Romanian Deadlift",
+    "muscleGroup": "Legs",
+    "equipment": "Barbell"
+  },
+  {
+    "Id": 21,
+    "name": "Leg Press",
+    "muscleGroup": "Legs",
+    "equipment": "Machine"
+  },
+  {
+    "Id": 22,
+    "name": "Walking Lunge",
+    "muscleGroup": "Legs",
+    "equipment": "Dumbbell"
+  },
+  {
+    "Id": 23,
+    "name": "Calf Raise",
+    "muscleGroup": "Legs",
+    "equipment": "Machine"
+  },
+  {
+    "Id": 24,
+    "name": "Leg Curl",
+    "muscleGroup": "Legs",
+    "equipment": "Machine"
+  },
+  {
+    "Id": 25,
+    "name": "Plank",
+    "muscleGroup": "Core",
+    "equipment": "Bodyweight"
+  },
+  {
+    "Id": 26,
+    "name": "Russian Twist",
+    "muscleGroup": "Core",
+    "equipment": "Bodyweight"
+  },
+  {
+    "Id": 27,
+    "name": "Hanging Leg Raise",
+    "muscleGroup": "Core",
+    "equipment": "Pull-up Bar"
+  },
+  {
+    "Id": 28,
+    "name": "Ab Wheel Rollout",
+    "muscleGroup": "Core",
+    "equipment": "Ab Wheel"
+  },
+  {
+    "Id": 29,
+    "name": "Cable Crunch",
+    "muscleGroup": "Core",
+    "equipment": "Cable"
+  },
+  {
+    "Id": 30,
+    "name": "Mountain Climber",
+    "muscleGroup": "Core",
+    "equipment": "Bodyweight"
+  }
+]
